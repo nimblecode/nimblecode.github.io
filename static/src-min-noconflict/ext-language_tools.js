@@ -1929,10 +1929,10 @@ require("../config").defineOptions(Editor.prototype, "editor", {
         value: false
     },
     liveAutocompletionDelay: {
-        value: 100
+        value: 200
     },
     liveAutocompletionThreshold: {
-        value: 0
+        value: 2
     },
     enableSnippets: {
         set: function(val) {
